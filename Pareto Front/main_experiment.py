@@ -47,3 +47,9 @@ mean_covs = np.mean(covariances_all, axis=0)
 std_covs = np.std(covariances_all, axis=0)
 ci_errors = 1.96 * std_errors / np.sqrt(n_iter)
 ci_covs = 1.96 * std_covs / np.sqrt(n_iter)
+
+np.save("results/mean_errors.npy", mean_errors)
+np.save("results/ci_errors.npy", ci_errors)
+np.save("results/mean_covs.npy", mean_covs)
+np.save("results/ci_covs.npy", ci_covs)
+
