@@ -1,0 +1,7 @@
+#Required packages
+numpy
+matplotlib
+pandas
+seaborn
+scikit-learn
+torch
