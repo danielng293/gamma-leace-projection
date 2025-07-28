@@ -2,6 +2,7 @@
 Explored the fairness–accuracy trade-off in projection based machine learning algorithm by proposing γ-controlled LEACE, a refined version of LEACE (Least Squares Concept Erasure). Implemented synthetic data generation, custom ML pipelines, and Pareto front analysis in Python.
 
 ## Project Structure
+```
 Bonus Study/ # Additional experiments on varied datasets
 └── different_datasets.py
 
@@ -21,7 +22,7 @@ Report/ # Final paper
 
 requirements.txt # Python dependencies
 README.md # Project overview
-
+```
 ## How to run
 ```bash
 pip install -r requirements.txt
